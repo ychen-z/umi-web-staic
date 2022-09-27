@@ -1,0 +1,19 @@
+#root {
+  min-width: 1200px;
+  height: 100%;
+}
+
+.container-1200 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}

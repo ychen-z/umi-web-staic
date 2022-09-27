@@ -1,0 +1,28 @@
+@primary-color: @primary;
+
+// 一级菜单颜色
+@layout-header-background: rgb(51, 51, 51);
+
+// 选中文字颜色
+@menu-dark-arrow-color: #fff;
+
+// 选中菜单项
+@menu-dark-item-active-bg: rgb(85, 85, 85);
+
+// 二级菜单颜色
+@menu-dark-submenu-bg: rgb(17, 17, 17);
+
+// 折叠按钮背景色
+@layout-trigger-background: rgb(68, 68, 68);
+
+.ant-table {
+  .ant-table-tbody > tr.ant-table-row:hover > td {
+    background-color: #fdf6f6;
+  }
+
+  .ant-table-thead
+    > tr
+    > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+    width: 0;
+  }
+}
